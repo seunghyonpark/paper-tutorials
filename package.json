@@ -1,0 +1,43 @@
+{
+  "name": "paper-tutorials",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@paperxyz/embedded-wallet-service-rainbowkit": "^0.1.0",
+    "@paperxyz/embedded-wallet-service-wagmi": "^2.1.0",
+    "@paperxyz/js-client-sdk": "^0.2.0",
+    "@rainbow-me/rainbowkit": "^0.12.14",
+    "@thirdweb-dev/react": "^3",
+    "@thirdweb-dev/sdk": "^3",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "encoding": "^0.1.13",
+    "ethers": "^5.7.2",
+    "install": "^0.13.0",
+    "lokijs": "^1.5.12",
+    "next": "^13.4.2",
+    "npm": "^9.6.6",
+    "pino-pretty": "^10.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss-animate": "^1.0.5",
+    "wagmi": "^0.12.13"
+  },
+  "devDependencies": {
+    "@types/node": "20.1.3",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
+    "eslint-config-next": "^13.4.2",
+    "postcss": "^8.4.23",
+    "prettier-plugin-tailwindcss": "^0.2.8",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.4"
+  }
+}
