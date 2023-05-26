@@ -44,7 +44,7 @@ const HomePage = () => {
   const [posts, setPosts] = useState<BlogPost[]>([]);
 
   // Thirdweb Stuff
-  const sdk = new ThirdwebSDK("mumbai");
+  const sdk = new ThirdwebSDK("goerli");
   const contractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS!;
   const shareableLink = process.env.NEXT_PUBLIC_SHAREABLE_LINK!;
   const minimumBalance = 1;
@@ -94,7 +94,7 @@ const HomePage = () => {
 
   return (
     <div className="text-center">
-      
+
       {/* Navbar */}
       <nav className="bg-dark-secondary px-4 py-2">
         <div className="flex items-center justify-between px-3 py-3">
