@@ -37,10 +37,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           appName="Paper RainbowKit Provider Example"
           walletOptions={{
             clientId: clientId,
-            chain: "Mumbai",
+            chain: "Goerli",
+            
           }}
         >
-          <ThirdwebProvider activeChain="mumbai">
+          <ThirdwebProvider activeChain="geerli">
             {/*  */}
             {children}
           </ThirdwebProvider>

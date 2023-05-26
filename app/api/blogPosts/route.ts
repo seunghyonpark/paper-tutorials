@@ -4,6 +4,7 @@ import { NextResponse, NextRequest } from "next/server";
 
 ======================================= */
 export const GET = async (req: NextRequest, res: NextResponse) => {
+  
   const realPosts = [
     {
       title: "How to Create and Update NFTs Programmatically Using the Paper API",
@@ -33,4 +34,5 @@ export const GET = async (req: NextRequest, res: NextResponse) => {
     console.log(error);
     return NextResponse.json(`First Error: ${error}`, { status: 500 });
   }
+
 };

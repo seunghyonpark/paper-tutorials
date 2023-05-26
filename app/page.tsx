@@ -94,6 +94,7 @@ const HomePage = () => {
 
   return (
     <div className="text-center">
+      
       {/* Navbar */}
       <nav className="bg-dark-secondary px-4 py-2">
         <div className="flex items-center justify-between px-3 py-3">
