@@ -41,7 +41,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             
           }}
         >
-          <ThirdwebProvider activeChain="geerli">
+          <ThirdwebProvider activeChain="goerli">
             {/*  */}
             {children}
           </ThirdwebProvider>
