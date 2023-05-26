@@ -109,6 +109,22 @@ const HomePage = () => {
         </div>
       </nav>
 
+
+
+      {/* Buy NFT Button */}
+      {!address ? null : hasNFT ? null : (
+        <button
+          onClick={() =>
+            renderPaperCheckoutLink({
+              checkoutLinkUrl: shareableLink,
+            })
+          }
+          className="rounded bg-dark-tertiary px-5 py-3 transition-all hover:bg-dark-quaternary"
+        >
+          Buy with Paper
+        </button>
+      )}
+
       {/* Header */}
       <h1 className="mt-12 text-3xl">Demo Blog</h1>
 
@@ -137,19 +153,7 @@ const HomePage = () => {
         </div>
       )}
 
-      {/* Buy NFT Button */}
-      {!address ? null : hasNFT ? null : (
-        <button
-          onClick={() =>
-            renderPaperCheckoutLink({
-              checkoutLinkUrl: shareableLink,
-            })
-          }
-          className="rounded bg-dark-tertiary px-5 py-3 transition-all hover:bg-dark-quaternary"
-        >
-          Buy with Paper
-        </button>
-      )}
+
     </div>
   );
 };
